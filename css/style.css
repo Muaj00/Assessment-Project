@@ -1,0 +1,76 @@
+/* Font plus jakarta added */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+/* Common css starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Common css ends */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.navbar div ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.navbar div ul li a{
+    text-align: center;
+    color: #475569;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.logo{
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.login_container{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.Sign_btn{
+    padding: 12px 20px;
+    border: 1px solid #CBD5E1;
+    border-radius: 1234px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #475569;
+}
+.log_btn{
+    background-color: #4F46E5;
+    padding: 12px 20px;
+    border: 1px solid #CBD5E1;
+    border-radius: 1234px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;  
+}
