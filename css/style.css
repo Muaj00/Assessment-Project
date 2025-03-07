@@ -437,3 +437,51 @@ a{
     font-size: 16px;
     color:#475569;
 }
+/* testimonial section ends */
+.contact_container{
+    width: 1440px;
+    height: 525px;
+    margin: 0 auto;
+    padding: 96px 112px;
+}
+
+.Contact_container_text_div{
+    width: 1216px;
+    height: 149px;
+    justify-content: start;
+    margin-bottom: 64px;
+}
+
+.contact_location_div{
+    width: 1216px;
+    height: 184px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.location{
+    width: 280px;
+    height: 184px;
+    padding: 24px;
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
+}
+
+.location_name{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #1E293B;
+    font: bold;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.location_address{
+    font: medium;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E293B;
+}
+/* Contact section end */
