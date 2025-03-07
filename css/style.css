@@ -20,6 +20,16 @@ a{
     color: black;
 }
 
+.heading_black{
+    color: #1E293B;
+}
+.paragraph_ligh{
+    color: #475569;
+}
+
+.primary_color{
+    color: #4F46E5;
+}
 
 
 /* Common css ends */
@@ -132,4 +142,35 @@ a{
     margin-top: 75px;
     height: 600px;
 }
+/* Hero section ends */
 
+.Social_container1{
+    width: 1440px;
+    height: 352px;
+    margin: 0 auto;
+    padding: 112px 64px;
+}
+.Social_container2{
+    width: 1216px;
+    height: 224px;
+    margin: 0 auto;
+    background-color: #F8FAFC;
+}
+
+.social_logo1{
+    width: 1184px;
+    height: 96px;
+    margin: 0 auto;
+    gap: 64px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.social_logo2{
+    width: 976px;
+    height: 96px;
+    margin: 0 auto;
+    gap: 64px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 32px;
+}
