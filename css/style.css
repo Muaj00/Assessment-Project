@@ -300,3 +300,78 @@ a{
 }
 
 /* Statistics section ends */
+.feature_container_02{
+    width: 1440px;
+    height: 1028px;
+    padding: 96px 112px;
+    margin: 0 auto;
+}
+
+.feature_main_container_02{
+    width: 1216px;
+    height: 836px;
+    margin: 0 auto;
+}
+
+.feature_container_02_text_div{
+    width: 680px;
+    height: 180px;
+    justify-content: start;
+}
+
+.feature_container_02_heading{
+    font-weight: 800;
+    font-size: 36px;
+    font: bolder;
+    margin-bottom: 24px;
+    text-align: start;
+    margin-top: 24px;
+}
+
+.feature_description_container{
+    width: 1216px;
+    height: 592px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.feature_description_div{
+    width: 592px;
+    padding: 62px 0px;
+    align-items: center;
+}
+
+.space{
+    padding-right: 96px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    border-left: 3px solid #E0E7FF;
+}
+
+#special_description{
+    border-left: 3px solid #4F46E5;
+}
+
+.feature_description_heading{
+    font: bold;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.feature_description_paragraph{
+    font: medium;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.feature_description_img{
+    width: 592px;
+    height: 592px;
+    border-radius: 32px;
+}
+/* feature section 02 ends */
