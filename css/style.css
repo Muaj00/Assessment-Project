@@ -23,7 +23,7 @@ a{
 .heading_black{
     color: #1E293B;
 }
-.paragraph_ligh{
+.paragraph_light{
     color: #475569;
 }
 
@@ -174,3 +174,68 @@ a{
     grid-template-columns: repeat(5, 1fr);
     margin-top: 32px;
 }
+
+/* Social proof section ends */
+
+.feature_container{
+    width: 1440px;
+    height: 920px;
+    margin: 0 auto;
+    padding: 96px 112px;
+}
+
+.feature_text_div{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    height: 188px;
+}
+
+.feature_heading{
+    font-weight: 800;
+    font-size: 36px;
+    font: bolder;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.feature_paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.feature_items_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 48px;
+    column-gap: 32px;
+    margin-top: 64px;
+}
+
+.item{
+    width: 384px;
+    height: 214px;
+}
+
+.item_img{
+    text-align: center;  
+}
+
+.item_heading{
+    font-weight: 700;
+    font-size: 20px;
+    font: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.item_paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+}
+
+/* Features section ends */
