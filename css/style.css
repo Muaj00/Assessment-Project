@@ -33,6 +33,10 @@ a {
     color: #4F46E5;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /* Common css ends */
 
@@ -773,11 +777,6 @@ a {
 }
 
 /* footer section ends */
-
-.d-none {
-    display: none;
-}
-
 
 
 
