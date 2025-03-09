@@ -95,6 +95,25 @@ a {
 .nav_menu1{
     display: block;
 }
+
+.small_nav_menu{
+    display: none;
+}
+.small_nav_menu.mobileActive{
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    padding: 18px;
+    background-color: #cbd5e4;
+}
+
+.small_nav_menu.mobileActive ul li {
+    border-bottom:1px solid #47505c;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
 .nav_menu3{
     display: none;
 }
@@ -372,7 +391,9 @@ a {
     border-left: 3px solid #E0E7FF;
 }
 
-#special_description {
+
+
+.special_description {
     border-left: 3px solid #4F46E5;
 }
 
@@ -459,6 +480,10 @@ a {
     font-weight: 400;
     font-size: 16px;
     color: #475569;
+}
+
+.load_more_btn_container{
+    display: none;
 }
 
 /* testimonial section ends */
@@ -800,11 +825,6 @@ a {
     }
 
     .bg-small {
-        /* background-color: #EEF2FF;
-        padding: 6px 12px;
-        color: #4F46E5;
-        border-radius: 20px;
-        font-weight: 600; */
         margin-bottom: 20px;
     }
 
@@ -832,7 +852,7 @@ a {
     }
 
     .hero_banner img {
-        width: 390px;
+        width: 380px;
         height: 330px;
         padding-top: 120px;
     }
@@ -1017,7 +1037,7 @@ a {
         border-left: 3px solid #E0E7FF;
     }
 
-    #special_description {
+    .special_description {
         border-left: 3px solid #4F46E5;
     }
 
@@ -1062,6 +1082,29 @@ a {
     .common_width {
         width: 343px;
         padding: 20px;
+        display: none;
+    }
+
+    .common_width.visible{
+        display: block;
+    }
+
+    .load_more_btn_container{
+        display: block;
+        align-items: center;
+        
+    }
+
+    .load_more_btn{
+        font: bold;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        background-color: #4F46E5;
+        padding: 10px 16px;
+        width: 100%;
+        border: 0px;
+        border-radius: 20px;
     }
 
     .reviewer_name {
@@ -1072,6 +1115,7 @@ a {
         font: small;
         font-size: 14px;
     }
+
 
     /* testimonial section ends */
 

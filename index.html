@@ -25,10 +25,10 @@
                 </div>
                 <div class="nav_menu1">
                     <ul>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Testimonials</a></li>
-                        <li><a href="">FAQ</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Achievements">Achievements</a></li>
+                        <li><a href="#Testimonials">Testimonials</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
                     </ul>
                 </div>
 
@@ -37,14 +37,26 @@
                     <p class="btn1">Log In</p>
                 </div>
 
-                <div class="nav_menu3">
+                <div class="nav_menu3" onclick="menuToggle()">
                     <img src="Assets/Button Icon.png" alt="">
                 </div>
             </nav>
             <!-- NavBar ends -->
 
+            <!-- mobile navbar stars -->
+            <div id="mobileMenu" class="small_nav_menu">
+                <ul>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#Achievements">Achievements</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
+                </ul>
+            </div>
+            <!-- mobile navbar ends -->
 
 
+            <!-- Banner section starts -->
+            
             <div class="Hero_first_container">
                 <!-- 2nd container of Hero section -->
                 <div class="Hero_2nd_container">
@@ -67,6 +79,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Banner section ends -->
         </section>
         <!-- Hero Section Ends -->
     </header>
@@ -95,7 +108,7 @@
         <!-- Social proof Section ends -->
 
         <!-- Features section starts -->
-        <section class="feature_container">
+        <section id="Features" class="feature_container">
 
             <!-- Feature text div starts -->
             <div class="feature_text_div">
@@ -171,7 +184,7 @@
         <!-- Features section ends -->
 
         <!-- Statistics section starts -->
-        <section class="Statistics_container">
+        <section id="Achievements" class="Statistics_container">
             <div class="Statistics_text_div">
                 <small class="bg-small-house"> <img width="17px" height="17px" src="Assets/HouseSimple.png"
                         alt=""></small>
@@ -222,19 +235,19 @@
 
                 <div class="feature_description_container">
                     <div class="feature_description_div">
-                        <div id="special_description" class="space">
+                        <div id="tab1" class="space special_description" onclick="changeImage('interdum')">
                             <h3 class="feature_description_heading paragraph_light">Convallis tellus id interdum velit
                             </h3>
                             <p class="feature_description_paragraph paragraph_light">Est pellentesque elit ullamcorper
                                 dignissim cras. In pellentesque massa placerat duis ultricies.</p>
                         </div>
-                        <div class="space">
+                        <div id="tab2" class="space" onclick="changeImage('laoreet')">
                             <h3 class="feature_description_heading paragraph_light">Id interdum velit laoreet id donec
                                 ultrices</h3>
                             <p class="feature_description_paragraph paragraph_light">Donec massa sapien faucibus et
                                 molestie ac feugiat sed. Congue mauris rhoncus aenean vel elit scelerisque.</p>
                         </div>
-                        <div class="space">
+                        <div id="tab3" class="space"  onclick="changeImage('ligula')">
                             <h3 class="feature_description_heading paragraph_light">Sapien et ligula ullamcorper
                                 malesuada</h3>
                             <p class="feature_description_paragraph paragraph_light">Donec massa sapien faucibus et
@@ -242,7 +255,7 @@
                         </div>
                     </div>
                     <div class="feature_description_img">
-                        <img width="592px" height="592px" src="Assets/Frame (1).png" alt="">
+                        <img id="toggleImage" width="592px" height="592px" src="Assets/Frame (1).png" alt="">
                     </div>
                 </div>
             </div>
@@ -250,7 +263,7 @@
         <!-- Feature section 02 ends -->
 
         <!-- Testimonials section starts -->
-        <section class="testimonials_container">
+        <section id="Testimonials" class="testimonials_container">
             <!-- Testimonials text div starts -->
             <div class="testimonials_text_div">
                 <small class="bg-small"> Testimonials</small>
@@ -262,11 +275,11 @@
                 </p>
             </div>
             <!-- Testimonials text div ends -->
-
-
+            
+            <!-- review container starst -->
             <div class="review_container">
 
-                <div class="common_width">
+                <div class="common_width visible">
                     <div>
                         <img src="Assets/Rating.png" alt="">
                     </div>
@@ -281,7 +294,7 @@
                     </div>
                 </div>
 
-                <div class="common_width">
+                <div class="common_width visible">
                     <div>
                         <img src="Assets/Rating (1).png" alt="">
                     </div>
@@ -296,7 +309,7 @@
                     </div>
                 </div>
 
-                <div class="common_width">
+                <div class="common_width visible">
                     <div>
                         <img src="Assets/Rating (2).png" alt="">
                     </div>
@@ -311,7 +324,7 @@
                     </div>
                 </div>
 
-                <div class="common_width">
+                <div class="common_width visible">
                     <div>
                         <img src="Assets/Rating (3).png" alt="">
                     </div>
@@ -406,8 +419,11 @@
 
                 </div>
 
-
+                <div id="load_btn" class="load_more_btn_container" onclick="loadMore()">
+                    <button class="load_more_btn">Load More <i class="fa-solid fa-plus"></i> </button>
+                </div>
             </div>
+            <!-- review container ends -->
         </section>
         <!-- Testimonials section ends -->
 
@@ -459,7 +475,7 @@
         <!-- Contact section ends -->
 
         <!-- FAQ section starts -->
-        <section class="faq_container">
+        <section id="FAQ" class="faq_container">
             <!-- FAQ text div starts -->
             <div class="faq_text_div">
                 <small class="bg-small"> FAQ</small>
