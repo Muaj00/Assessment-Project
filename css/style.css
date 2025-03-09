@@ -79,7 +79,7 @@ a {
     color: #475569;
 }
 
-.btn {
+.btn1 {
     background-color: #4F46E5;
     padding: 12px 20px;
     border: 1px solid #CBD5E1;
@@ -87,6 +87,16 @@ a {
     font-weight: 700;
     font-size: 16px;
     color: white;
+}
+
+.nav_menu1{
+    display: block;
+}
+.nav_menu1{
+    display: block;
+}
+.nav_menu3{
+    display: none;
 }
 
 /* Navbar Ends */
@@ -750,8 +760,28 @@ a {
 
 @media screen and (max-width: 576px) {
 
-
-
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 375px;
+        height: 72px;
+    }
+    
+    .logo {
+        padding-top: 16px;
+        cursor: pointer;
+    }
+ 
+    .nav_menu1{
+        display: none;
+    }
+    .nav_menu2{
+        display: none;
+    }
+    .nav_menu3{
+        display: block;
+    }
 
     /* Navbar Ends */
 
