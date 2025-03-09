@@ -19,7 +19,7 @@
         <section id="home">
 
             <!-- NavBar Starts -->
-            <nav class="navbar">
+            <nav class="navbar d-none">
                 <div>
                     <img class="logo" src="Assets/Logo.png" alt="">
                 </div>
@@ -32,8 +32,8 @@
                     </ul>
                 </div>
                 <div class="login_container">
-                    <p class="Sign_btn">Sign Up</p>
-                    <p class="log_btn">Log In</p>
+                    <p class="btn">Sign Up</p>
+                    <p class="btn">Log In</p>
                 </div>
             </nav>
             <!-- NavBar ends -->
@@ -184,12 +184,12 @@
                     <h2 class="primary_color stat_heading">420%</h2>
                     <p class="stat_paragraph paragraph_light">Data Efficiency</p>
                 </div>
-
+                <hr class="d-none">
                 <div id="special_stat_div" class="stat_div">
                     <h2 class="primary_color stat_heading">708+</h2>
                     <p class="stat_paragraph paragraph_light">Conversion Rate</p>
                 </div>
-
+                <hr class="d-none">
                 <div class="stat_div">
                     <h2 class="primary_color stat_heading">1.82M</h2>
                     <p class="stat_paragraph paragraph_light">AI LLM Scale</p>
@@ -582,16 +582,28 @@
                     <p class="hero_paragraph">Velit scelerisque in dictum non consectetur. Felis eget velit aliquet
                         sagittis. Ultricies integer quis auctor elit sed vulputate mi. Massa id neque aliquam vestibulum
                         morbi blandit cursus.</p>
-                    <div class="login_container">
-                        <p id="special_btn" class="Sign_btn">Learn More</p>
-                        <p class="log_btn">Get Started</p>
+                    <div class="special_btn_container">
+                        <p id="special_btn" class="btn">Learn More</p>
+                        <p id="special_btn2" class="btn">Get Started</p>
                     </div>
                 </div>
+
+
                 <div class="hero_img_div">
                     <img src="Assets/MockUp.png" alt="">
                 </div>
+
                 <div class="hero_img_div2">
                     <img src="Assets/MockUp1.png" alt="">
+                </div>
+
+                <div class="special_positioning">
+                        <div class="img1">
+                            <img  src="Assets/edited MockUp (1).png" alt="">
+                        </div>
+                        <div class="img2">
+                            <img  src="Assets/edited MockUp (2).png" alt="">
+                        </div>
                 </div>
 
             </div>
@@ -678,12 +690,16 @@
                 <div>
                     <img src="Assets/Logo.png" alt="">
                 </div>
-                <a href="#home" class="up_arrow">
+                <a id="lg-arrow" href="#home" class="up_arrow">
                     <i class="fa-solid fa-angle-up"></i>
                 </a>
                 <div>
                     Copyright 2028 slothUI, All Rights Reserved.
                 </div>
+
+                <a id="sm-arrow" href="#home" class="up_arrow">
+                    <i class="fa-solid fa-angle-up"></i>
+                </a>
             </div>
         </section>
         <!-- Footer section ends -->
